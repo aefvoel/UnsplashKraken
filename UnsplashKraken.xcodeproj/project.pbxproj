@@ -3,19 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F136AB7DA8112D4D0AA4C7E /* Pods_UnsplashKraken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE83120C2C7CF0B9ACEA8E83 /* Pods_UnsplashKraken.framework */; };
+		AB4D729625763FAA00EA95CB /* UnsplashKrakenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D729525763FAA00EA95CB /* UnsplashKrakenTests.swift */; };
+		AB4D72A62576439400EA95CB /* UnsplashKrakenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D72A52576439400EA95CB /* UnsplashKrakenUITests.swift */; };
 		ABB4E84A2574BCE400A62E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E8492574BCE400A62E3C /* AppDelegate.swift */; };
 		ABB4E84C2574BCE400A62E3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E84B2574BCE400A62E3C /* SceneDelegate.swift */; };
 		ABB4E84E2574BCE400A62E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E84D2574BCE400A62E3C /* ViewController.swift */; };
 		ABB4E8512574BCE400A62E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4E84F2574BCE400A62E3C /* Main.storyboard */; };
 		ABB4E8532574BCE500A62E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4E8522574BCE500A62E3C /* Assets.xcassets */; };
 		ABB4E8562574BCE500A62E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4E8542574BCE500A62E3C /* LaunchScreen.storyboard */; };
+		ABB4E8642574C1AB00A62E3C /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E8622574C1AB00A62E3C /* PhotoCell.swift */; };
+		ABB4E8652574C1AB00A62E3C /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB4E8632574C1AB00A62E3C /* PhotoCell.xib */; };
+		ABB4E8742574C46800A62E3C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E8732574C46800A62E3C /* ApiRequest.swift */; };
+		ABB4E8772574C49200A62E3C /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E8762574C49200A62E3C /* Parameter.swift */; };
+		ABB4E88725751A4100A62E3C /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4E88625751A4100A62E3C /* CustomLayout.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AB4D729825763FAA00EA95CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB4E83E2574BCE400A62E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB4E8452574BCE400A62E3C;
+			remoteInfo = UnsplashKraken;
+		};
+		AB4D72A82576439400EA95CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB4E83E2574BCE400A62E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB4E8452574BCE400A62E3C;
+			remoteInfo = UnsplashKraken;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5B7B08A0B14ED0568E0F5B12 /* Pods-UnsplashKraken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashKraken.release.xcconfig"; path = "Target Support Files/Pods-UnsplashKraken/Pods-UnsplashKraken.release.xcconfig"; sourceTree = "<group>"; };
+		AB4D729325763FAA00EA95CB /* UnsplashKrakenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashKrakenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4D729525763FAA00EA95CB /* UnsplashKrakenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashKrakenTests.swift; sourceTree = "<group>"; };
+		AB4D729725763FAA00EA95CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4D72A32576439400EA95CB /* UnsplashKrakenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashKrakenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4D72A52576439400EA95CB /* UnsplashKrakenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashKrakenUITests.swift; sourceTree = "<group>"; };
+		AB4D72A72576439400EA95CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB4E8462574BCE400A62E3C /* UnsplashKraken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashKraken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB4E8492574BCE400A62E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB4E84B2574BCE400A62E3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +56,85 @@
 		ABB4E8522574BCE500A62E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB4E8552574BCE500A62E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB4E8572574BCE500A62E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB4E8622574C1AB00A62E3C /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		ABB4E8632574C1AB00A62E3C /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		ABB4E8732574C46800A62E3C /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		ABB4E8762574C49200A62E3C /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		ABB4E88625751A4100A62E3C /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		DE83120C2C7CF0B9ACEA8E83 /* Pods_UnsplashKraken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashKraken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F674BC6F35DA8FE9A867E6CE /* Pods-UnsplashKraken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashKraken.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashKraken/Pods-UnsplashKraken.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABB4E8432574BCE400A62E3C /* Frameworks */ = {
+		AB4D729025763FAA00EA95CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB4D72A02576439400EA95CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB4E8432574BCE400A62E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F136AB7DA8112D4D0AA4C7E /* Pods_UnsplashKraken.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4D728B2576313500EA95CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4E8492574BCE400A62E3C /* AppDelegate.swift */,
+				ABB4E84B2574BCE400A62E3C /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AB4D728C2576316700EA95CB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4E8522574BCE500A62E3C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AB4D729425763FAA00EA95CB /* UnsplashKrakenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB4D729525763FAA00EA95CB /* UnsplashKrakenTests.swift */,
+				AB4D729725763FAA00EA95CB /* Info.plist */,
+			);
+			path = UnsplashKrakenTests;
+			sourceTree = "<group>";
+		};
+		AB4D72A42576439400EA95CB /* UnsplashKrakenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB4D72A52576439400EA95CB /* UnsplashKrakenUITests.swift */,
+				AB4D72A72576439400EA95CB /* Info.plist */,
+			);
+			path = UnsplashKrakenUITests;
+			sourceTree = "<group>";
+		};
 		ABB4E83D2574BCE400A62E3C = {
 			isa = PBXGroup;
 			children = (
 				ABB4E8482574BCE400A62E3C /* UnsplashKraken */,
+				AB4D729425763FAA00EA95CB /* UnsplashKrakenTests */,
+				AB4D72A42576439400EA95CB /* UnsplashKrakenUITests */,
 				ABB4E8472574BCE400A62E3C /* Products */,
+				CC32FB6BFC411EBA8CE5797C /* Pods */,
+				EFF5EEF98832B060580ADD26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				ABB4E8462574BCE400A62E3C /* UnsplashKraken.app */,
+				AB4D729325763FAA00EA95CB /* UnsplashKrakenTests.xctest */,
+				AB4D72A32576439400EA95CB /* UnsplashKrakenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,27 +151,118 @@
 		ABB4E8482574BCE400A62E3C /* UnsplashKraken */ = {
 			isa = PBXGroup;
 			children = (
-				ABB4E8492574BCE400A62E3C /* AppDelegate.swift */,
-				ABB4E84B2574BCE400A62E3C /* SceneDelegate.swift */,
-				ABB4E84D2574BCE400A62E3C /* ViewController.swift */,
-				ABB4E84F2574BCE400A62E3C /* Main.storyboard */,
-				ABB4E8522574BCE500A62E3C /* Assets.xcassets */,
-				ABB4E8542574BCE500A62E3C /* LaunchScreen.storyboard */,
 				ABB4E8572574BCE500A62E3C /* Info.plist */,
+				AB4D728C2576316700EA95CB /* Assets */,
+				AB4D728B2576313500EA95CB /* Base */,
+				ABB4E8672574C2C300A62E3C /* Helpers */,
+				ABB4E8602574BD3C00A62E3C /* Controllers */,
+				ABB4E85F2574BD3300A62E3C /* Views */,
+				ABB4E85E2574BD1C00A62E3C /* Models */,
 			);
 			path = UnsplashKraken;
+			sourceTree = "<group>";
+		};
+		ABB4E85E2574BD1C00A62E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4E8762574C49200A62E3C /* Parameter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABB4E85F2574BD3300A62E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4E8542574BCE500A62E3C /* LaunchScreen.storyboard */,
+				ABB4E84F2574BCE400A62E3C /* Main.storyboard */,
+				ABB4E8622574C1AB00A62E3C /* PhotoCell.swift */,
+				ABB4E8632574C1AB00A62E3C /* PhotoCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABB4E8602574BD3C00A62E3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4E84D2574BCE400A62E3C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABB4E8672574C2C300A62E3C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4E8732574C46800A62E3C /* ApiRequest.swift */,
+				ABB4E88625751A4100A62E3C /* CustomLayout.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CC32FB6BFC411EBA8CE5797C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F674BC6F35DA8FE9A867E6CE /* Pods-UnsplashKraken.debug.xcconfig */,
+				5B7B08A0B14ED0568E0F5B12 /* Pods-UnsplashKraken.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFF5EEF98832B060580ADD26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE83120C2C7CF0B9ACEA8E83 /* Pods_UnsplashKraken.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB4D729225763FAA00EA95CB /* UnsplashKrakenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4D729A25763FAA00EA95CB /* Build configuration list for PBXNativeTarget "UnsplashKrakenTests" */;
+			buildPhases = (
+				AB4D728F25763FAA00EA95CB /* Sources */,
+				AB4D729025763FAA00EA95CB /* Frameworks */,
+				AB4D729125763FAA00EA95CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB4D729925763FAA00EA95CB /* PBXTargetDependency */,
+			);
+			name = UnsplashKrakenTests;
+			productName = UnsplashKrakenTests;
+			productReference = AB4D729325763FAA00EA95CB /* UnsplashKrakenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB4D72A22576439400EA95CB /* UnsplashKrakenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4D72AA2576439400EA95CB /* Build configuration list for PBXNativeTarget "UnsplashKrakenUITests" */;
+			buildPhases = (
+				AB4D729F2576439400EA95CB /* Sources */,
+				AB4D72A02576439400EA95CB /* Frameworks */,
+				AB4D72A12576439400EA95CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB4D72A92576439400EA95CB /* PBXTargetDependency */,
+			);
+			name = UnsplashKrakenUITests;
+			productName = UnsplashKrakenUITests;
+			productReference = AB4D72A32576439400EA95CB /* UnsplashKrakenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		ABB4E8452574BCE400A62E3C /* UnsplashKraken */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB4E85A2574BCE500A62E3C /* Build configuration list for PBXNativeTarget "UnsplashKraken" */;
 			buildPhases = (
+				847EF5A909DBA93F4E87690F /* [CP] Check Pods Manifest.lock */,
 				ABB4E8422574BCE400A62E3C /* Sources */,
 				ABB4E8432574BCE400A62E3C /* Frameworks */,
 				ABB4E8442574BCE400A62E3C /* Resources */,
+				3063192CD6574A6BDE3604A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +282,14 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					AB4D729225763FAA00EA95CB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ABB4E8452574BCE400A62E3C;
+					};
+					AB4D72A22576439400EA95CB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ABB4E8452574BCE400A62E3C;
+					};
 					ABB4E8452574BCE400A62E3C = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -115,15 +309,32 @@
 			projectRoot = "";
 			targets = (
 				ABB4E8452574BCE400A62E3C /* UnsplashKraken */,
+				AB4D729225763FAA00EA95CB /* UnsplashKrakenTests */,
+				AB4D72A22576439400EA95CB /* UnsplashKrakenUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB4D729125763FAA00EA95CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4D72A12576439400EA95CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABB4E8442574BCE400A62E3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB4E8652574C1AB00A62E3C /* PhotoCell.xib in Resources */,
 				ABB4E8562574BCE500A62E3C /* LaunchScreen.storyboard in Resources */,
 				ABB4E8532574BCE500A62E3C /* Assets.xcassets in Resources */,
 				ABB4E8512574BCE400A62E3C /* Main.storyboard in Resources */,
@@ -132,18 +343,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3063192CD6574A6BDE3604A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashKraken/Pods-UnsplashKraken-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashKraken/Pods-UnsplashKraken-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnsplashKraken/Pods-UnsplashKraken-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847EF5A909DBA93F4E87690F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashKraken-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		AB4D728F25763FAA00EA95CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4D729625763FAA00EA95CB /* UnsplashKrakenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4D729F2576439400EA95CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4D72A62576439400EA95CB /* UnsplashKrakenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABB4E8422574BCE400A62E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB4E8642574C1AB00A62E3C /* PhotoCell.swift in Sources */,
 				ABB4E84E2574BCE400A62E3C /* ViewController.swift in Sources */,
+				ABB4E8742574C46800A62E3C /* ApiRequest.swift in Sources */,
 				ABB4E84A2574BCE400A62E3C /* AppDelegate.swift in Sources */,
+				ABB4E88725751A4100A62E3C /* CustomLayout.swift in Sources */,
+				ABB4E8772574C49200A62E3C /* Parameter.swift in Sources */,
 				ABB4E84C2574BCE400A62E3C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB4D729925763FAA00EA95CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB4E8452574BCE400A62E3C /* UnsplashKraken */;
+			targetProxy = AB4D729825763FAA00EA95CB /* PBXContainerItemProxy */;
+		};
+		AB4D72A92576439400EA95CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB4E8452574BCE400A62E3C /* UnsplashKraken */;
+			targetProxy = AB4D72A82576439400EA95CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ABB4E84F2574BCE400A62E3C /* Main.storyboard */ = {
@@ -165,6 +451,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB4D729B25763FAA00EA95CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A97SVDB2Q9;
+				INFOPLIST_FILE = UnsplashKrakenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.toriqwah.UnsplashKrakenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashKraken.app/UnsplashKraken";
+			};
+			name = Debug;
+		};
+		AB4D729C25763FAA00EA95CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A97SVDB2Q9;
+				INFOPLIST_FILE = UnsplashKrakenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.toriqwah.UnsplashKrakenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashKraken.app/UnsplashKraken";
+			};
+			name = Release;
+		};
+		AB4D72AB2576439400EA95CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A97SVDB2Q9;
+				INFOPLIST_FILE = UnsplashKrakenUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.toriqwah.UnsplashKrakenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnsplashKraken;
+			};
+			name = Debug;
+		};
+		AB4D72AC2576439400EA95CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A97SVDB2Q9;
+				INFOPLIST_FILE = UnsplashKrakenUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.toriqwah.UnsplashKrakenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnsplashKraken;
+			};
+			name = Release;
+		};
 		ABB4E8582574BCE500A62E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -216,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +651,7 @@
 		};
 		ABB4E85B2574BCE500A62E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F674BC6F35DA8FE9A867E6CE /* Pods-UnsplashKraken.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +665,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.toriqwah.UnsplashKraken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ABB4E85C2574BCE500A62E3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7B08A0B14ED0568E0F5B12 /* Pods-UnsplashKraken.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,13 +685,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.toriqwah.UnsplashKraken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB4D729A25763FAA00EA95CB /* Build configuration list for PBXNativeTarget "UnsplashKrakenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D729B25763FAA00EA95CB /* Debug */,
+				AB4D729C25763FAA00EA95CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4D72AA2576439400EA95CB /* Build configuration list for PBXNativeTarget "UnsplashKrakenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D72AB2576439400EA95CB /* Debug */,
+				AB4D72AC2576439400EA95CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ABB4E8412574BCE400A62E3C /* Build configuration list for PBXProject "UnsplashKraken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
